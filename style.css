@@ -22,6 +22,10 @@ body{
     --secondary-contrast: #f0ac70;
 }
 
+#special{
+    color: var(--contrast-color);
+}
+
 .formated-text1{
     font-family: 'Playfair Display', serif;
     color: var(--primary-color);
@@ -272,6 +276,11 @@ footer p{
         padding-left: 10%;
         padding-right: 10%;
     }
+
+    .description{
+        padding-right: 30%;
+        padding-bottom: 1em;
+    }
 }
 
 @media (min-width: 1050px){
@@ -279,12 +288,20 @@ footer p{
         padding-left: 20%;
         padding-right: 20%;
     }
+
+    .description{
+        padding-right: 35%;
+    }
 }
 
 @media (min-width: 1300px){
     .wrapper{
         padding-left: 20%;
         padding-right: 20%;
+    }
+
+    .description{
+        padding-right: 37%;
     }
 }
 
@@ -321,6 +338,11 @@ footer p{
     .page-content{
         display: flex;
         flex-direction: row-reverse;
+    }
+
+
+    .description{
+        padding-right: 50%;
     }
 }
 
