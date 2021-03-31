@@ -106,7 +106,7 @@ body{
 }
 
 .servings img{
-    width: 20px;
+    width: 1.5em;
 }
 
 .time{
@@ -241,6 +241,7 @@ body{
     border-radius: 6px;
     color: white;
     font-size: 24px;
+    font-feature-settings: 'lnum' 1;
 }
 
 .card1{
